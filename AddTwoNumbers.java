@@ -8,7 +8,7 @@ public class AddTwoNumbers {
 
       sum = num1 + num2;
       
-      System.out.println("Sum of these numbers: " + sum);
+      logger.log("Sum of these numbers: " + sum);
    }
    
    public static void main(String[] args) {
