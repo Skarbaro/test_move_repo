@@ -8,4 +8,15 @@ public class AddTwoNumbers {
       
       System.out.println("Sum of these numbers: " + sum);
    }
+   
+   public static void main(String[] args) {
+      
+      int num1 = 5;
+	  int num2 = 15;
+	  int sum;
+
+      dif = num1 - num2;
+	  
+      System.out.println("Sum of these numbers: " + dif);
+   }
 }
