@@ -1,3 +1,5 @@
+package src;
+
 public class AddTwoNumbers {
    
    public static void main(String[] args) {
@@ -20,5 +22,16 @@ public class AddTwoNumbers {
       dif = num1 - num2;
 	  
       logger.log("Sum of these numbers: " + dif);
+   }
+   
+   public static void main(String[] args) {
+      
+      int num1 = 5;
+	  int num2 = 15;
+	  int del;
+
+      del = num1 / num2;
+	  
+      logger.log("Sum of these numbers: " + del);
    }
 }
