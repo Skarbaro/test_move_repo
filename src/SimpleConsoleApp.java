@@ -14,7 +14,7 @@ public class Example {
 	
 	public static int min(int var1, int var2) {
         int tempRezult = var1 - var2;
-        System.out.println("Rezult = " + tempRezult);
+        logger.log("Rezult = " + tempRezult);
         return tempRezult;
     }
 }
