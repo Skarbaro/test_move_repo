@@ -8,12 +8,18 @@ public class Example {
 	
 	public static int ung(int var1, int var2) {
         int tempRezult = var1 * var2;
-        System.out.println("Rezult = " + tempRezult);
+        logger.log("Rezult = " + tempRezult);
         return tempRezult;
     }
 	
 	public static int min(int var1, int var2) {
         int tempRezult = var1 - var2;
+        logger.log("Rezult = " + tempRezult);
+        return tempRezult;
+    }
+	
+	public static int max(int var1, int var2) {
+        int tempRezult = var1 + var2;
         logger.log("Rezult = " + tempRezult);
         return tempRezult;
     }
